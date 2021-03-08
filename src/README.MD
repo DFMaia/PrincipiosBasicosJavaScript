@@ -6,9 +6,13 @@
 > **Document**
 > >  - Document se refere ao que está dentro da página. 
 > >  - document.getElementById('idDaDiv') "valor" (não sei ao certo ainda) PARA o HTML.
+> > - document.write escreve diretamente na tela. Não usar. Eu sei que é má prática.
 
 > **Window**
 > > - Window se refere a janela. 
+
+> **prompt()**
+> > - Todo valor passado dentro de um prompt é avaliado como uma String.
 
 > **this**
 > > - this. refere-se ao elemento em questão. Muito parecido ao this de atributos do Java. 
@@ -34,5 +38,22 @@
 > > > 	alert("Esse item está na lista");
 > > >} else {
 > > > 	alert("Valor não encontrado");
+> > > } 
+> > > ~~~
+
+> **Loops**
+> > -Exemplos:
+> > > ~~~ javascript
+> > > //Sobre o while
+> > > var  x  =  0;
+> > > while(x  <  10){
+> > > document.write("O valor de x é: "  +  x  +  "</br>");
+> > > x++;
+> > > }
+> > > 
+> > > //Sobre o for
+> > > for(var  a  =  0; a  <  10; a++){
+> > > document.write("O valor de a é: "  +  a  +  "</br>");
+> > > x++;
 > > > } 
 > > > ~~~
