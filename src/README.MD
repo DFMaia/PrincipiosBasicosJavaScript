@@ -22,7 +22,12 @@
 > > - onclick = "document.getElementById('idDaDiv') poderá alterar HTML quando se referencia uma DIV ou outro elemento HTML quando há um id. 
 
 > **innerHTML**
-> > - O innerHTML é um join. Ele receberá o valor do prompt e colocará no div que tem o id area ou com qualquer outra coisa que seja aceita.  
+> > - O innerHTML é um join. Ele receberá o valor do prompt e colocará no div que tem o id area ou com qualquer outra coisa que seja aceita. 
+
+> **Temporizador**
+> > - setinterval(função, tempoEmMilisegundos); -> Executa uma função milisegundo em milisegundo determinado pelo parâmetro "tempoEmMilisegundos".
+> > - setTimeout(fução, tempoEmMilisegundos) -> Executa uma função depois de um tempo determinado no parâmetro "tempoEmMilisegundos".
+> > - clearTimer(var) interrompe o setInterval. Basta colocar o setiterval dentro de um var e colocar essa variável dentro do clearTimer(var).
 
 > **Array**
 > > - Quando consultar um elemento inexistente no array, o retorno será de -1
@@ -52,7 +57,7 @@
 > > > }
 > > > 
 > > > //Sobre o for
-> > > for(var  a  =  0; a  <  10; a++){
+> > > for(var  a  =  0; a  <  10; a++)){
 > > > document.write("O valor de a é: "  +  a  +  "</br>");
 > > > x++;
 > > > } 

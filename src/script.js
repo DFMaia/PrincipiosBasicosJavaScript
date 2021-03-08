@@ -31,7 +31,7 @@ for(var a = 0; a < 10; a++){
     x++;
 }*/
 
-document.write("Escolha o seu pedido: </br>");
+/*document.write("Escolha o seu pedido: </br>");
 document.write("</br> 0 - Sorvete / 1 - Suco </br>");
 document.write("</br> 2 - Coca-Cola / 3 - Água gelada </br></br>");
 
@@ -58,4 +58,13 @@ function pedir(){
         default:
             alert("Essa opção não existe.");    
     }
-}
+}*/
+
+//Executa de tempo em tempo
+/*function acao(){
+    document.write("Executando...</br>");
+}*/
+
+//setInterval(acao, 1000);
+
+//setTimeout(acao, 3000);
