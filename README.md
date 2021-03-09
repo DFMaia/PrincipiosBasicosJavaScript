@@ -5,7 +5,7 @@
 ### Observações:
 > - O JavaScript é uma linguagem fracamente tipada. Existem diferenças enormes para manipular variáveis. **Sempre tenha isso em mente**.
 
-> Esse repositório _**ainda**_ está em _**desenvolvimento**_. :blush:
+> A maior parte das informações em estudo se encontram no README. Foi a melhor maneira que encontrei para documentar. 
 
 #### Sugestões?
 > Fique à vontade para fornecê-las. :smile:
