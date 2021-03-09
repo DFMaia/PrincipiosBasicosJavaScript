@@ -1,8 +1,12 @@
-/**
- * Quando uma função recebe uma lista de elementos, é necessário que tenha "..." anted do parâmetro.
- */
-function minhaLista(...nomes) {
-    console.log(nomes);
+function cadastrar(usuarios, ...novosUsuarios) {
+    let totalUsuarios = [
+        ...usuarios,
+        ...novosUsuarios
+    ];
+
+    return console.log(totalUsuarios);
 }
 
-minhaLista("Matheus", "Lucas", "João");
+let usuarios = ["Matheus", "João"];
+
+let novosUsuarios = cadastrar(usuarios, "Henrique", "Lucas");
