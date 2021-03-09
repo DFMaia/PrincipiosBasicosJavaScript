@@ -1,28 +1,24 @@
 /**
- * Método includes
- * Verifica se há um elemento dentro da lista. 
- * @param value @returns true or false.
+ * Método Some
+ * Verifica se há pelo menos um elemento igual 
  */
-let nomes = ['Matehus', 'Lucas', 'João'];
-console.log(nomes.includes('Lucas'));
+let nomes = ["Matheus", "Lucas", "Henrique"];
 
-if(nomes.includes('Matheus')){
-    console.log('Matheus está na lista');
-}else {
-    console.log('Matheus não está na lista');
+console.log(nomes.some(nomes => nomes === "Matheus"));
+
+/**
+ * Método Every
+ * Verifica se todos estão dentro de uma determinada condição
+ */
+let nomes2 = [
+    {nome: "Matheus", idade: 18},
+    {nome: "Maria", idade: 25},
+    {nome: "Henrique", idade: 15}
+];
+console.log(nomes2.every(nome => nome.idade >= 18));
+
+if(nomes.every(nome => nome.idade >=18 )){
+    console.log("Todos são maiores de 18");
+}else{
+    console.log("Ops alguém é menor");
 }
-
-
-/**
- * Método endsWith
- * Verifica se a palavra termina com determinado char ou determinado String
- * @param value @returns true or false
- */
-let nome = "Matheus";
-console.log(nome.endsWith("eus"));
-
-/**
- * Método startsWith
- * O mesmo princípio do método acima, mas a verificação começa no inicio da String. 
- */
- console.log(nome.startsWith("M"));
