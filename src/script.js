@@ -1,39 +1,28 @@
 /**
- * FUNÇÃO ANÔNIMA
- * A função reduce que se encontra dentro da função adicionar, é uma função anônima.
+ * Método includes
+ * Verifica se há um elemento dentro da lista. 
+ * @param value @returns true or false.
  */
-function adicionar(...numeros){
-    let total = numeros.reduce(function(total, proximo){
-        return total + proximo
-    });
+let nomes = ['Matehus', 'Lucas', 'João'];
+console.log(nomes.includes('Lucas'));
 
-    console.log(total);
+if(nomes.includes('Matheus')){
+    console.log('Matheus está na lista');
+}else {
+    console.log('Matheus não está na lista');
 }
 
-adicionar(1,2,3,4,5);
 
 /**
- * Esse exemplo aqui é o mesmo que o de disse. 
- * A diferença é que ele é uma versão mais simplificada. 
- * Substitui a palavra function por =>
+ * Método endsWith
+ * Verifica se a palavra termina com determinado char ou determinado String
+ * @param value @returns true or false
  */
- function adicionar(...numeros){
-    let total = numeros.reduce((total, proximo) => {
-        return total + proximo
-    });
-
-    console.log(total);
-}
-
-adicionar(1,2,3,4,5);
+let nome = "Matheus";
+console.log(nome.endsWith("eus"));
 
 /**
- * E essa versão aqui é mais reduzida ainda. 
+ * Método startsWith
+ * O mesmo princípio do método acima, mas a verificação começa no inicio da String. 
  */
- function adicionar(...numeros){
-    let total = numeros.reduce((total, proximo) => total + proximo);
-
-    console.log(total);
-}
-
-adicionar(1,2,3,4,5);
+ console.log(nome.startsWith("M"));
