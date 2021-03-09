@@ -58,7 +58,8 @@
 > > > 	cargo: "desenvolvedor"
 > > > };
 > > > ~~~
-> > Para descontruir o objeto (coletar somente um valor do objeto):
+> > **Desconstruindo o _objeto_**:
+> > Para _**descontruir**_ o objeto (coletar somente um valor do objeto):
 > > > ~~~~javascript
 > > > let { nome } = pessoa;
 > > > ~~~~ 
@@ -93,7 +94,23 @@
 > > > 	alert("Valor não encontrado");
 > > > } 
 > > > ~~~
->
+> > **Desconstruindo o Array**
+> > > ~~~ javascript
+> > > let nomes = [' Matheus', 'Fraga', 10];
+> > > let { 1: segundoNome } = nomes;
+> > > ~~~
+> > > `É passado primeiro o valor do índice e depois o nome da variável a ser instanciada. Se quiser fazer mais de um elemento, é só colocar uma virgula e seguir com o mesmo padrão.`
+> > > ~~~ javascript
+> > > let { 1: segundoNome, 2: idade } = nomes;
+> > > ~~~
+> > > `O retorno será o valor contido no índice da lista.`
+> > 
+> > A outra forma é: 
+> > > ~~~javascript
+> > > let [nome, sobrenome, idade] = nomes;
+> > > ~~~
+> > > `Basta imprimir o nome de cada variável declarada dentro do let.`
+> 
 > **Loops**
 > > -Exemplos:
 > > > ~~~ javascript
