@@ -105,11 +105,33 @@
 > > > ~~~
 > > > `O retorno será o valor contido no índice da lista.`
 > > 
-> > A outra forma é: 
+> > > A outra forma é: 
 > > > ~~~javascript
 > > > let [nome, sobrenome, idade] = nomes;
 > > > ~~~
 > > > `Basta imprimir o nome de cada variável declarada dentro do let.`
+> >
+> > **spreadOperator** (_join entre dois arrays_)
+> > Para fazer um join em dois arrays diferente sem precisar mapear cada índex e fazer um push basta seguir o código exemplo:
+> > > ~~~javascript
+> > > let primeiros [1, 2, 3];
+> > > let numeros [...primeiros, 4, 5, 6];
+> > > ~~~
+> > > `No segundo array entre três pontos "..." e então o nome do primeiro array.`
+> >
+> >**spreadOperator** (_objetos_)
+> > > ~~~javascript
+> > > let pessoa = {
+> > > 	nome: "Matheus",
+> > > 	idade: 45,
+> > > 	cargo: "Programador"
+> > > };
+> > > let novaPessoa = {
+> > > 	...pessoa,
+> > > 	anoAtual: 2050,
+> > > 	cidade: "CampoGrande"
+> > > };
+> > > ~~~
 > 
 > **Loops**
 > > -Exemplos:
