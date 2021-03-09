@@ -29,6 +29,15 @@
 > > - setTimeout(fução, tempoEmMilisegundos) -> Executa uma função depois de um tempo determinado no parâmetro "tempoEmMilisegundos".
 > > - clearTimer(var) interrompe o setInterval. Basta colocar o setiterval dentro de um var e colocar essa variável dentro do clearTimer(var).
 
+> **Local Storage**
+> > - Quando o usuário fecha a janela/sessão, os dados do usuário são salvos. 
+> > - localStorage.setItem("nome", "Diego"); Seta um nome para a variável "nome" OU localStorage.nome = "Diego";
+> > - localStorage.getItem("nome") retorna o valor da vaiável "nome";
+> > - localStorage.removeItem("nome") remove o valor.
+
+> **Session Storage**
+> > - Possui a mesma lógica do item acima :point_up:, no entando quando o usuário fecha a janela/sessão, os dados não são salvos. 
+
 > **Array**
 > > - Quando consultar um elemento inexistente no array, o retorno será de -1
 > > - array.indexOf["item não existente"]; -> -1
