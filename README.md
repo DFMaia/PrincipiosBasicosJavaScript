@@ -1,5 +1,5 @@
 # Sobre esse repositório.
-> Aqui apresenta-se um estudo básico de JavaScript e React.
+> Aqui apresenta-se um estudo básico de JavaScript.
 > A linguagem que tenho domínio é Java e por isso esse rep. terá também como função consultas sobre as características do JavaScript. 
 
 ### Observações:
