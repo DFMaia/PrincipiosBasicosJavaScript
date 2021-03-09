@@ -1,11 +1,8 @@
-function cadastroPessoa(info) {
-   let novosDados = {
-       ...info,
-       cargo: 'Programador',
-       status: 1,
-       codigo: '65236523652'
-   }
-    return novosDados; 
+/**
+ * Quando uma função recebe uma lista de elementos, é necessário que tenha "..." anted do parâmetro.
+ */
+function minhaLista(...nomes) {
+    console.log(nomes);
 }
 
-console.log(cadastroPessoa({nome: 'Matheus', sobrenome: 'Fraga', anoInicio: 2045}));
+minhaLista("Matheus", "Lucas", "João");
